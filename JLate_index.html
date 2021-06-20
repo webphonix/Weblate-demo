@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ekta_tag></ekta_tag>
+    <new_tag data='{"name":"Praneet"}'></new_tag>
+    <new_tag id="method2" ></new_tag>
+    <loop_demo id="emp"></loop_demo>
+    <a class="wp-branding">WKAF</a>
+    <script src="https://cdn.jsdelivr.net/combine/npm/lodash,npm/jlate@0.0.1/jlate/JLate.min.js"></script>
+                
+<script>
+  data={"name":"WEBPHONIX"} ; 
+  $$("#method2").attr("data",JSON.stringify(data));
+
+
+    emp_data={"employees":["ekta","sony","saima","praneet"]};
+    jl("#emp").attr("data",JSON.stringify(emp_data));
+
+ jl.import(['JLate/JLate_title.html','JLate/JLate_file2.html','JLate/JLate_file3.html']);
+</script>
+</body>
+</html>
