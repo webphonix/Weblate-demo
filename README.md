@@ -15,8 +15,9 @@ WebLate is similar to JQuery, react and angular.
 npm i weblate
 
 ## CDN Availabale:
+```
 <script src="https://cdn.jsdelivr.net/combine/npm/lodash,npm/weblate/weblate/weblate.min.js"></script>
-
+```
 **Latest Version**
 * 0.3.10 (WebLate New Born)
 
